@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:terminy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".app.ActivityNavigation">
+
+    <item
+        android:id="@+id/action_neprihlaseni_na_termin"
+        android:orderInCategory="5"
+        android:title="Nezaradené akcie"
+        terminy:actionLayout="@layout/action_neprihlaseni_na_termin"
+        terminy:showAsAction="always"/>
+
+    <item android:id="@+id/action_obdobie"
+        android:orderInCategory="50"
+        android:title="Semester"
+        terminy:showAsAction="never" />
+
+</menu>

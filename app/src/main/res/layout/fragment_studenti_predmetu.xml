@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <ListView
+        android:id="@+id/listViewStudenti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="false"
+        android:divider="@android:color/holo_blue_bright"
+        android:dividerHeight="2dp"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/textViewEmptyListStudentiPredmetu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zoznam_studentov_prazdny"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/listViewStudenti"
+        android:padding="@dimen/space_big"
+        android:textSize="@dimen/text_size_big"
+        android:visibility="gone"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabStudentiPredmetu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/checkbox_on_background" />
+
+
+
+    <!--
+        <include layout="@layout/progress_bar"/>
+    -->
+
+
+</RelativeLayout>

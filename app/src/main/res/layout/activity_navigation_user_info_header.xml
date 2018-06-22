@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutGroup"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/space_medium">
+
+    <TextView
+        android:id="@+id/textViewUserFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plne_meno_pouzivatela"
+        android:paddingLeft="@dimen/space_medium"
+        android:textAppearance="@style/popisny_text"/>
+
+    <TextView
+        android:id="@+id/textViewPlneMeno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/space_medium"
+        android:gravity="center"
+        android:text="Doc. RNDr. Roman Soták, PhD."
+        android:textAppearance="@style/hlavny_text_vyrazny"/>
+
+    <View style="@style/horizontal_separator"/>
+
+    <TextView
+        android:id="@+id/textViewUniversityAcademy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/skola"
+        android:paddingLeft="@dimen/space_medium"
+        android:paddingTop="@dimen/space_small"
+        android:textAppearance="@style/popisny_text"/>
+
+    <TextView
+        android:id="@+id/textViewSkola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/space_medium"
+        android:text="Prírodovedecká fakulta UPJŠ"
+        android:textAppearance="@style/hlavny_text_vyrazny"
+        />
+
+    <View style="@style/horizontal_separator"/>
+
+<!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vsetky_studia"
+        android:paddingLeft="@dimen/space_medium"
+        android:paddingTop="@dimen/space_small"
+        android:paddingBottom="@dimen/space_small"
+        android:textAppearance="@style/popisny_text"/>
+
+-->
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyActionBarSubtitleText" parent="AppTheme">
+        <item name="android:textColor">@color/biela</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="MyActionBarTitleText" parent="AppTheme">
+        <item name="android:textColor">@color/biela</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+</resources>

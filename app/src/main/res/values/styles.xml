@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="popisny_text" parent="AppTheme">
+        <item name="android:textColor">@color/siva_tmava_extra</item>
+        <item name="android:textSize">@dimen/text_size_medium_small</item>
+    </style>
+
+    <style name="hlavny_text_vyrazny" parent="AppTheme">
+        <item name="android:textColor">@color/cierna</item>
+        <item name="android:textSize">@dimen/text_size_medium_big</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="horizontal_separator" parent="AppTheme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@color/siva</item>
+    </style>
+
+    <style name="ActionIconText">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/oranzova</item>
+    </style>
+
+    <style name="hlavny_text_small" parent="AppTheme">
+        <item name="android:textColor">@color/siva_tmava_uplne</item>
+        <item name="android:textSize">@dimen/text_size_medium_small</item>
+    </style>
+
+    <style name="hlavny_text" parent="AppTheme">
+        <item name="android:textColor">@color/cierna</item>
+        <item name="android:textSize">@dimen/text_size_medium_big</item>
+    </style>
+
+    <style name="MyActionBarSubtitleText" parent="AppTheme">
+        <item name="android:textColor">@color/biela</item>
+        <item name="android:textSize">@dimen/text_size_medium_small</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="MyActionBarTitleText" parent="AppTheme">
+        <item name="android:textColor">@color/biela</item>
+        <item name="android:textSize">@dimen/text_size_big</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Toolbar" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">@color/biela</item>
+    </style>
+    <style name="PopupMenu" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColor">@color/modra</item>
+        <item name="android:itemBackground">@drawable/item_background_secondary</item>
+    </style>
+
+
+</resources>

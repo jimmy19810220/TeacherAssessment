@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">TeacherAssessment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Teacher assessment</string>
+    <string name="nav_header_subtitle">jozef.obrin@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- navigation drawer items -->
+    <string name="hodnotenie">Assessment</string>
+    <string name="title_activity_hodnotenia">Assessments</string>
+    <string name="hodnotenie_terminy">Assessment by exam dates</string>
+    <string name="hodnotenie_predmety">Assessment by subject</string>
+
+    <string name="plne_meno_pouzivatela">Full name</string>
+    <string name="skola">University / Academy</string>
+
+    <string name="zoznam_hodnoteni_prazdny">No assessments</string>
+    <string name="zoznam_terminov_prazdny">No exams</string>
+    <string name="zoznam_predmetov_prazdny">No subjects</string>
+
+    <string name="znamka">Grade</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="title_activity_studenti_predmetu">Students of subject</string>
+
+    <string name="hint_meno_student">Insert student name</string>
+    <string name="hint_priezvisko_student">Insert student surname</string>
+    <string name="hint_email_student">Insert student email</string>
+    <string name="delete">delete</string>
+    <string name="user_info">User info</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="delete_student_really">Delete student?</string>
+    <string name="delete_termin_really">Delete exam date?</string>
+    <string name="zoznam_studentov_prazdny">Empty students list</string>
+    <string name="student_meno">Student name</string>
+    <string name="pridanie_aktualizacia_studenta">Add(edit) student</string>
+    <string name="pridanie_aktualizacia_predmetu">Add(edit) subject</string>
+    <string name="hint_predmet_skratka">Insert subject abbreviation</string>
+    <string name="hint_predmet_nazov">Insert subject name</string>
+
+    <string name="termin">Exam date</string>
+    <string name="delete_subject_really">Delete subject?</string>
+    <string name="terminy_predmetov">Exam dates of subjects</string>
+    <string name="predmet">Subject</string>
+    <string name="vyucovane_predmety">Subjects</string>
+    <string name="studenti_terminu">Students of date exam</string>
+    <string name="action_prihlasit_na_termin">Add new student to exam date</string>
+    <string name="student">Student</string>
+    <string name="adding_student_to_exam_date">Adding student to exam date</string>
+    <string name="zmenena_znamka_otazka_na_ulozenie">The grade was changed. Save records?</string>
+
+    <string name="student_saved">Student saved</string>
+    <string name="subject_saved">Subject saved</string>
+
+
+</resources>

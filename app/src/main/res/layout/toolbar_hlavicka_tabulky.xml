@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarHlavickaTabulky"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/oranzova_apiDo20"
+        app:titleTextAppearance="@style/MyActionBarTitleText"
+        app:subtitleTextAppearance="@style/MyActionBarSubtitleText"
+        android:theme="@style/Toolbar"
+        app:popupTheme="@style/PopupMenu"
+        >
+
+
+            <TextView
+                android:id="@+id/toolbar_textVlavo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Toolbar Title"
+                android:layout_gravity="left"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/text_size_big"/>
+
+            <TextView
+                android:id="@+id/toolbar_textVpravo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Toolbar Title"
+                android:layout_gravity="right"
+                android:gravity="center_vertical"
+                android:paddingRight="@dimen/space_medium_double"
+                android:textSize="@dimen/text_size_big"/>
+
+    </android.support.v7.widget.Toolbar>
+
+
+</merge>

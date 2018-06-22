@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Nastavenia</string>
+
+
+    <!-- navigation drawer items -->
+    <string name="hodnotenie">Hodnotenie</string>
+    <string name="hodnotenie_terminy">Hodnotenie cez termíny</string>
+    <string name="terminy_predmetov">Termíny predmetov</string>
+
+    <string name="title_activity_hodnotenia">Hodnotenia</string>
+
+    <string name="plne_meno_pouzivatela">Plné meno</string>
+    <string name="skola">Univerzita / Vysoká škola</string>
+
+    <string name="zoznam_hodnoteni_prazdny">Žiadne hodnotenia</string>
+    <string name="zoznam_terminov_prazdny">Žiadne termíny</string>
+    <string name="zoznam_predmetov_prazdny">Žiadne predmety</string>
+
+    <string name="znamka">Známka</string>
+    <string name="cancel">Zrušiť</string>
+
+    <string name="title_activity_studenti_predmetu">Študenti predmetu</string>
+
+    <string name="hint_meno_student">Zadajte meno študenta</string>
+    <string name="hint_priezvisko_student">Zadajte priezvisko študenta</string>
+    <string name="hint_email_student">Zadajte email študenta</string>
+
+    <string name="delete">zmazať</string>
+
+    <string name="user_info">Info o používateľovi</string>
+
+    <string name="yes">ÁNO</string>
+    <string name="no">NIE</string>
+
+    <string name="delete_student_really">Zmazať študenta?</string>
+    <string name="delete_termin_really">Zmazať termín predmetu?</string>
+
+    <string name="zoznam_studentov_prazdny">Prázdny zoznam študentov</string>
+
+    <string name="student_meno">Meno študenta</string>
+    <string name="pridanie_aktualizacia_studenta">Pridanie(aktualizácia) študenta</string>
+    <string name="pridanie_aktualizacia_predmetu">Pridanie(aktualizácia) predmetu</string>
+    <string name="hint_predmet_skratka">Vložte skratku predmetu</string>
+    <string name="hint_predmet_nazov">Vložte názov predmetu</string>
+
+    <string name="termin">Termín</string>
+    <string name="predmet">Predmet</string>
+
+    <string name="delete_subject_really">Zmazať predmet?</string>
+    <string name="vyucovane_predmety">Vyučované predmety</string>
+    <string name="studenti_terminu">Študenti termínu</string>
+    <string name="action_prihlasit_na_termin">Prihlásiť študenta na termín</string>
+    <string name="student">Študent</string>
+    <string name="adding_student_to_exam_date">Prihlásenie študenta na termín</string>
+    <string name="zmenena_znamka_otazka_na_ulozenie">Bola zmenená známka. Uložiť záznamy?</string>
+
+    <string name="student_saved">Študent pridaný</string>
+    <string name="subject_saved">Predmet pridaný</string>
+
+</resources>

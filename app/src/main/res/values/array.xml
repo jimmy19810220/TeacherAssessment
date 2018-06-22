@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="grades_array">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>FX</item>
+    </string-array>
+
+    <string-array name="hodnotenie_nadpisy_zaloziek">
+        <item>@string/hodnotenie_terminy</item>
+        <item>@string/hodnotenie_predmety</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/space_medium"
+    android:paddingBottom="@dimen/space_medium"
+    android:background="@drawable/item_background_primary">
+
+    <TextView
+        android:id="@+id/textViewSemester"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/siva_tmava_uplne"
+        android:textSize="@dimen/text_size_big"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textViewSkratka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/textViewSemester"
+        android:maxLines="1"
+        style="@style/hlavny_text_small"/>
+
+    <TextView
+        android:id="@+id/textViewNazovPredmetu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewSkratka"
+        android:layout_toRightOf="@id/textViewSemester"
+        android:maxLines="1"
+        style="@style/hlavny_text"/>
+
+</RelativeLayout>

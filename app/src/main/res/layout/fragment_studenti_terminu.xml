@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:id="@+id/layoutTerminy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dp">
+
+        <TextView
+            android:id="@+id/textViewTerminyText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/space_medium"
+            android:text="@string/termin"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_big"/>
+
+        <Spinner
+            android:id="@+id/spinnerTerminy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@+id/textViewTerminyText"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="6dp"
+            />
+
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/horizontalSeparator1"
+        style="@style/horizontal_separator"
+        android:layout_below="@id/layoutTerminy"/>
+
+    <TextView
+        android:id="@+id/textViewEmptyListStudentiTerminu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/zoznam_studentov_prazdny"
+        android:gravity="center"
+        android:padding="@dimen/space_big"
+        android:textSize="@dimen/text_size_big"
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/listViewStudentiTerminu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/holo_blue_bright"
+        android:dividerHeight="2dp"
+        android:layout_below="@id/layoutTerminy"
+        android:paddingTop="@dimen/space_medium"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabUlozitStudentovNaTermine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/checkbox_on_background"
+        />
+
+<!--
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabStudentiTerminu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/fabUlozitStudentovNaTermine"
+        />
+-->
+
+
+<!--
+    <include layout="@layout/progress_bar"/>
+-->
+
+
+</RelativeLayout>

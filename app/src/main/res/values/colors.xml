@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="siva_tmava_extra">#a0a0a0</color>
+    <color name="siva_tmava_uplne">#787878</color>
+    <color name="biela">#ffffff</color>
+    <color name="biela_transparent">#86ffffff</color>
+    <color name="cierna">#000000</color>
+    <color name="siva">#dfdfdf</color>
+
+    <color name="oranzova_apiDo20">#ffb16d</color>          <!-- namiesto ripple effectu na list items pre android starsi ako 5.0 (nie je vhodne pouzit transparenciu, lebo sa to zmiesa s defaultnym efektom) -->
+    <color name="oranzova">#ff881d</color>
+    <color name="oranzova_tmava">#df780d</color>
+
+    <color name="modra_apiDo20">#4F8FC6</color>
+    <color name="modra">#0069c8</color>
+    <color name="modra_tmava">#00549E</color>
+
+</resources>
